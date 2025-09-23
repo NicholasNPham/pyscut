@@ -1,4 +1,2 @@
-def hi(name: str):
-    print(f"Hello {name}")
-
-print(f"{__file__} imported")
+# __init__.py
+from .main import createPythonShortcut

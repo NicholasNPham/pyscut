@@ -40,12 +40,3 @@ def createPythonShortcut(targetFile=None, targetFileDir=None, name=None, icon=No
     shortcut.IconLocation = iconFile
 
     shortcut.save()
-
-    # return lnkFileLocation, iconFile, argument, argumentDir, shortcut.TargetPath
-
-# Testing Main Function
-createPythonShortcut(r"E:\PycharmProjects\NotionAIOptimizer\DAEMON\interface.py",
-                     r"E:\PycharmProjects\NotionAIOptimizer\DAEMON",
-                     "DAEMON",
-                     r'E:\PycharmProjects\NotionAIOptimizer\DAEMON\samurai.ico',
-                     False)
